@@ -1,7 +1,7 @@
 package io.github.luaprogrammer.mscartoes.application;
 
 import io.github.luaprogrammer.mscartoes.domain.Cartao;
-import io.github.luaprogrammer.mscartoes.infra.CartaoRepository;
+import io.github.luaprogrammer.mscartoes.infra.repository.CartaoRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
