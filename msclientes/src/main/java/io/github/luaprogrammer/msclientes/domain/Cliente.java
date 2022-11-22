@@ -16,13 +16,13 @@ public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String cpf;
     private String nome;
+    private String cpf;
     private Integer idade;
 
-    public Cliente(String cpf, String nome, Integer idade) {
-        this.cpf = cpf;
+    public Cliente(String nome, String cpf, Integer idade) {
         this.nome = nome;
+        this.cpf = cpf;
         this.idade = idade;
     }
 }
