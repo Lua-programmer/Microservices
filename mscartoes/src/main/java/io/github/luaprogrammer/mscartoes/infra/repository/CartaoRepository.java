@@ -2,6 +2,7 @@ package io.github.luaprogrammer.mscartoes.infra.repository;
 
 import io.github.luaprogrammer.mscartoes.domain.Cartao;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.math.BigDecimal;
