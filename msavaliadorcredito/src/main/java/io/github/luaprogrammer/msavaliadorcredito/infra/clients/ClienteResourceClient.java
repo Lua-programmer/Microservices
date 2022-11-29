@@ -1,4 +1,4 @@
-package io.github.luaprogrammer.msavaliadorcredito.infra;
+package io.github.luaprogrammer.msavaliadorcredito.infra.clients;
 
 import io.github.luaprogrammer.msavaliadorcredito.domain.model.DadosCliente;
 import org.springframework.cloud.openfeign.FeignClient;

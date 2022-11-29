@@ -1,4 +1,4 @@
-package io.github.luaprogrammer.msavaliadorcredito.infra;
+package io.github.luaprogrammer.msavaliadorcredito.infra.clients;
 
 import io.github.luaprogrammer.msavaliadorcredito.domain.model.Cartao;
 import io.github.luaprogrammer.msavaliadorcredito.domain.model.CartaoCliente;
